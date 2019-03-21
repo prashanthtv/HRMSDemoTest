@@ -1,33 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="14261" started-at="2019-03-20T13:19:02Z" finished-at="2019-03-20T13:19:16Z">
+  <suite name="Suite" duration-ms="29612" started-at="2019-03-21T07:06:32Z" finished-at="2019-03-21T07:07:02Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="14261" started-at="2019-03-20T13:19:02Z" finished-at="2019-03-20T13:19:16Z">
+    <test name="Test" duration-ms="29612" started-at="2019-03-21T07:06:32Z" finished-at="2019-03-21T07:07:02Z">
+      <class name="testcases.Google">
+        <test-method status="PASS" signature="Google()[pri:0, instance:testcases.Google@7a30d1e6]" name="Google" duration-ms="11164" started-at="2019-03-21T07:06:51Z" finished-at="2019-03-21T07:07:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Google -->
+      </class> <!-- testcases.Google -->
       <class name="testcases.HRMSLogin">
-        <test-method status="PASS" signature="startBrowser()[pri:0, instance:testcases.HRMSLogin@4f7d0008]" name="startBrowser" is-config="true" duration-ms="3121" started-at="2019-03-20T18:49:02Z" finished-at="2019-03-20T18:49:05Z">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:testcases.HRMSLogin@43bd930a]" name="startBrowser" is-config="true" duration-ms="3214" started-at="2019-03-21T07:06:32Z" finished-at="2019-03-21T07:06:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startBrowser -->
-        <test-method status="PASS" signature="LaunchApp()[pri:0, instance:testcases.HRMSLogin@4f7d0008]" name="LaunchApp" duration-ms="4326" started-at="2019-03-20T18:49:05Z" finished-at="2019-03-20T18:49:09Z">
+        <test-method status="PASS" signature="LaunchApp()[pri:0, instance:testcases.HRMSLogin@43bd930a]" name="LaunchApp" duration-ms="5325" started-at="2019-03-21T07:06:36Z" finished-at="2019-03-21T07:06:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchApp -->
-        <test-method status="PASS" signature="login()[pri:0, instance:testcases.HRMSLogin@4f7d0008]" name="login" duration-ms="2063" started-at="2019-03-20T18:49:09Z" depends-on-methods="testcases.HRMSLogin.LaunchApp" finished-at="2019-03-20T18:49:11Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:testcases.HRMSLogin@43bd930a]" name="login" duration-ms="2593" started-at="2019-03-21T07:06:41Z" depends-on-methods="testcases.HRMSLogin.LaunchApp" finished-at="2019-03-21T07:06:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:testcases.HRMSLogin@4f7d0008]" name="logout" duration-ms="2834" started-at="2019-03-20T18:49:11Z" depends-on-methods="testcases.HRMSLogin.login" finished-at="2019-03-20T18:49:14Z">
+        <test-method status="PASS" signature="logout()[pri:0, instance:testcases.HRMSLogin@43bd930a]" name="logout" duration-ms="4942" started-at="2019-03-21T07:06:44Z" depends-on-methods="testcases.HRMSLogin.login" finished-at="2019-03-21T07:06:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method status="PASS" signature="closeapp()[pri:0, instance:testcases.HRMSLogin@4f7d0008]" name="closeapp" is-config="true" duration-ms="1896" started-at="2019-03-20T18:49:14Z" finished-at="2019-03-20T18:49:16Z">
+        <test-method status="PASS" signature="closeapp()[pri:0, instance:testcases.HRMSLogin@43bd930a]" name="closeapp" is-config="true" duration-ms="2337" started-at="2019-03-21T07:06:48Z" finished-at="2019-03-21T07:06:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeapp -->
       </class> <!-- testcases.HRMSLogin -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

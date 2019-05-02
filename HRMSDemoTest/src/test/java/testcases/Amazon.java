@@ -19,7 +19,7 @@ public class Amazon {
 		driver= new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.amazon.in");
-		System.out.println("Amazon application loaded");
+		System.out.println("Amazon app loaded");
 		driver.quit();
 	
 		

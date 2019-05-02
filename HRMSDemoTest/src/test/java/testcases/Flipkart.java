@@ -19,7 +19,7 @@ public class Flipkart {
 		driver= new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https:/www.flipkart.com");
-		System.out.println("Flipkart app1 loaded");
+		System.out.println("Flipkart application loaded");
 		driver.quit();
 	
 		
